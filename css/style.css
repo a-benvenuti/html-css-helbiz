@@ -155,6 +155,29 @@ section{
   max-width: 250px;
 }
 /* /section-SMARTPHONE */
+/* section-3 */
+.set{
+  display: inline-block;
+  width: calc(100% / 2);
+  position: relative;
+}
+.box_text{
+  right: calc(100% / 2);
+  vertical-align: bottom;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+.box_monopattino{
+  left: calc(100% / 2);
+  text-align: left;
+  vertical-align: top;
+  margin-top: 80px;
+}
+.box_text img{
+  width: 100%;
+  max-width: 450px;
+}
+/* /section-3 */
 /* ---------------/MAIN-------------- */
 /* --------Media Query--------- */
 @media screen and (max-width: 992px) {
@@ -173,6 +196,15 @@ section{
     right: auto;
   }
   .box_2{
+    left: auto;
+  }
+  .set{
+    width: 100%;
+  }
+  .box_text{
+    right: auto;
+  }
+  .box_monopattino{
     left: auto;
   }
 }
